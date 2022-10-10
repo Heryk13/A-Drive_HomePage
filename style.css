@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+/*------------------------NAVIGATION BAR------------------------*/
+
+div#nav-wrapper {
+    height: 90px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+nav {
+    width: 100%;
+    height: 95%;
+    background-color: #3995F1;
+    display: flex;
+    align-items: flex-end;
+}
+
+a.logo {
+    background-image: url("images/title-logo.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 10%;
+    height: 100%;
+}
+
+div.nav-left {
+    width: 50%;
+    display: flex;
+    background: linear-gradient(180deg, rgba(10,77,145,1) 0%, rgba(7,49,91,1) 100%);
+    height: 90%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.nav-left > * {
+    margin-left: 30px;
+    color: white;
+}
+
+h1.title {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+ul {
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #C8C8C8;
+}
+
+li.navButton:hover {
+    font-size: 12px;
+    background: linear-gradient(0deg, rgba(241,241,241,1) 0%, rgba(80,80,80,1) 100%);
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+li.navButton {
+    transition: font-size 0.3s;
+    font-size: 15px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(172, 172, 172) 0%, rgba(80,80,80,1) 100%);
+    background-size: 100% 90%;
+    background-position: 100% 100%;
+}
+
+a#contact {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(10,77,145,1) 0%, rgba(7,49,91,1) 100%);
+}
+
+a#contact:hover {
+    background: linear-gradient(180deg, rgb(27, 141, 255) 0%, rgba(7,49,91,1) 100%);
+}
+
+li.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    border: 1px solid white;
+}
+
+span#letter-up {
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 15%, 50% 70%, 0 15%);
+    transform: translateY(90%);
+    border-radius: 5%;
+}
+
+span#letter-down {
+    border-radius: 5%;
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    clip-path: polygon(50% 80%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+}
+
+/*------------------------/NAVIGATION BAR------------------------*/
+
