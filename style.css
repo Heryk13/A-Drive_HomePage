@@ -22,11 +22,11 @@ nav {
 
 a.logo {
     background-image: url("images/title-logo.png");
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 10%;
-    height: 100%;
+    width: 8%;
+    height: 80%;
 }
 
 div.nav-left {
@@ -151,19 +151,28 @@ span#letter-down {
     }
 
     p, span {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     a.logo {
-        width: 28%;
+        width: 18%;
     }
 
     div.nav-left {
-        width: 40%;
+        width: 36%;
     }
 
     ul {
-        width: 60%;
+        width: 64%;
+    }
+
+    a.logo {
+        background-size: 100% 100%;
+        height: 40%;
+    }
+
+    div#nav-wrapper {
+        height: 55px;
     }
 }
 
