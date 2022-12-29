@@ -134,7 +134,7 @@ span#letter-down {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 40%;
+    width: 60%;
 }
 
 @media (max-width: 450px) {
